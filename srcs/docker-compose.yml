@@ -28,11 +28,7 @@ services:
     image: mariadb
     build:
       context: ./requirements/mariadb
-      args:
-        - DB_NAME=${DB_NAME}
-        - DB_USER=${DB_USER}
-        - DB_PASSWORD=${DB_PASSWORD}
-        - DB_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
+    env_file: .env
     networks:
       - n_inception
     volumes:

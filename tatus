@@ -1,0 +1,44 @@
+[33mcommit bbd9c13f9c181445332ea07dd5e1df7afb75382d[m[33m ([m[1;36mHEAD -> [m[1;32minception-patch[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mshow[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 66e101a b8990a8
+Author: Young-il Cho <86599495+young1the@users.noreply.github.com>
+Date:   Tue Jul 26 18:14:28 2022 +0900
+
+    Merge pull request #1 from young1the/inception-patch
+    
+    Update create_user.sh
+
+[33mcommit b8990a8868004767f1bbd78e295d21f95c34c1f8[m[33m ([m[1;31morigin/inception-patch[m[33m)[m
+Author: Young-il Cho <86599495+young1the@users.noreply.github.com>
+Date:   Tue Jul 26 11:48:48 2022 +0900
+
+    Update create_user.sh
+
+[33mcommit 66e101aa7dcabcabe04c8de453d1b036611a4459[m
+Author: Young il Cho <young-ch@c2r3s3.42seoul.kr>
+Date:   Mon Jul 25 12:29:24 2022 +0900
+
+    Add Makefile down command
+
+[33mcommit 9693c49029e7b9ce0217234610ffe5f2d0d133a4[m
+Author: Young il Cho <young-ch@c2r3s3.42seoul.kr>
+Date:   Mon Jul 25 12:15:04 2022 +0900
+
+    Add nginx redirect server
+
+[33mcommit 5775703cd6a74760461db9ce5a31fe4624740936[m
+Author: Young il Cho <young-ch@c2r3s3.42seoul.kr>
+Date:   Mon Jul 25 11:18:04 2022 +0900
+
+    Rewrote from old-inception
+
+[33mcommit 89c95f7c2d45ba1869db7d71d258554587d7109e[m
+Author: Young il Cho <young-ch@c2r3s3.42seoul.kr>
+Date:   Mon Jul 25 11:16:41 2022 +0900
+
+    Rewrote from old-inception
+
+[33mcommit b3dda9958b146a9cade4fdb41afda550deabd81d[m
+Author: Young-il Cho <86599495+young1the@users.noreply.github.com>
+Date:   Mon Jul 25 11:08:49 2022 +0900
+
+    Initial commit
