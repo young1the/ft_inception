@@ -16,7 +16,7 @@ RUN mkdir /run/php
 RUN wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && \
 	chmod +x wp-cli.phar && mv wp-cli.phar /usr/local/bin/wp
 
-RUN sudo adduser user www-data
+RUN adduser www-data && usermod -a -G sudo www-data
 
 COPY ./tools/install_wp.sh /
 RUN chmod +x install_wp.sh
