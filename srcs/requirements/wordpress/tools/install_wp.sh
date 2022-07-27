@@ -1,6 +1,6 @@
 #!bin/bash
 
-mkpir -p /var/www/wordpress
+mkdir -p /var/www/wordpress
 chown -R www-data:www-data /var/www/wordpress
 chown www-data:www-data /var/www/wordpress
 cd /var/www/wordpress
