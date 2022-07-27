@@ -1,8 +1,8 @@
 #!bin/bash
 
-mkdir -p /var/www/wordpress
-chown -R www-data:www-data /var/www/wordpress
-chown www-data:www-data /var/www/wordpress
+mkdir -p /var/www/
+chown -R www-data:www-data /var/www/
+chown www-data:www-data /var/www/
 cd /var/www/wordpress
 sudo -u www-data wp core download
 
